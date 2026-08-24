@@ -73,6 +73,22 @@ A computer science student who enjoys music, hiking, and cycling.
       <li class="news-task is-complete">4bit 量化与 QLoRA 模型训练</li>
     </ul>
   </li>
+  <li class="news-learning-group">
+    <strong>分布式训练</strong>
+    <ul class="news-task-list">
+      <li class="news-task is-complete">分布式训练与环境配置</li>
+      <li class="news-task is-complete">DataParallel原理与应用</li>
+      <li class="news-task is-complete">Distributed DataParallel</li>
+      <li class="news-task is-complete">Accelerate分布式训练</li>
+      <li class="news-task is-complete">Accelerate + Deepspeed</li>
+    </ul>
+  </li>
+  <li class="news-learning-group">
+    <strong>参数搜索</strong>
+    <ul class="news-task-list">
+      <li class="news-task is-complete">基于Optuna的自动调参</li>
+    </ul>
+  </li>
 </ul>
 
 <span class='anchor' id='research-interests'></span>
