@@ -10,19 +10,19 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio"><span lang="zh-CN">{{ author.bio }}</span>{% if author.bio_en %}<span class="bilingual-en" lang="en">{{ author.bio_en }}</span>{% endif %}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        <li><div class="profile-description"><span lang="zh-CN">{{ site.description_zh | default: site.description }}</span>{% if site.description_en %}<span class="bilingual-en" lang="en">{{ site.description_en }}</span>{% endif %}</div></li>
       {% endif %}
       {% if author.location %}
         <li class="profile-meta-item">
           <svg class="profile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-          <span>{{ author.location }}</span>
+          <span><span lang="zh-CN">{{ author.location }}</span>{% if author.location_en %}<span class="bilingual-en" lang="en">{{ author.location_en }}</span>{% endif %}</span>
         </li>
       {% endif %}
       {% if author.employer %}
@@ -32,12 +32,12 @@
         </li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> 个人网站 / Website</a></li>
       {% endif %}
       {% if author.email %}
         <li><a class="profile-meta-item" href="mailto:{{ author.email }}">
           <svg class="profile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
-          <span>Email</span>
+          <span><span lang="zh-CN">邮箱</span> / <span lang="en">Email</span></span>
         </a></li>
       {% endif %}
       {% if author.keybase %}
@@ -76,7 +76,7 @@
       {% if author.github %}
         <li><a class="profile-meta-item" href="https://github.com/{{ author.github }}">
           <svg class="profile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7A5.4 5.4 0 0 0 19.28 4a5.5 5.5 0 0 0-.09-3.5S18.07.14 15 1.88a13.38 13.38 0 0 0-7 0C4.93.14 3.81.5 3.81.5A5.5 5.5 0 0 0 3.72 4a5.4 5.4 0 0 0-1.44 3.78c0 5.42 3.44 6.67 6.72 7A4.8 4.8 0 0 0 8 18v4"></path><path d="M8 19c-3 .923-3-2.31-4-2.77"></path></svg>
-          <span>Github</span>
+          <span><span lang="zh-CN">代码主页</span> / <span lang="en">GitHub</span></span>
         </a></li>
       {% endif %}
       {% if author.stackoverflow %}
@@ -136,7 +136,7 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <a class="profile-meta-item" href="mailto:{{ author.email }}" aria-label="Email">
+        <a class="profile-meta-item" href="mailto:{{ author.email }}" aria-label="邮箱 / Email" title="邮箱 / Email">
           <svg class="profile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
         </a>
       {% endif %}
@@ -174,7 +174,7 @@
         <a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.github %}
-        <a class="profile-meta-item" href="https://github.com/{{ author.github }}" aria-label="GitHub">
+        <a class="profile-meta-item" href="https://github.com/{{ author.github }}" aria-label="代码主页 / GitHub" title="代码主页 / GitHub">
           <svg class="profile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7A5.4 5.4 0 0 0 19.28 4a5.5 5.5 0 0 0-.09-3.5S18.07.14 15 1.88a13.38 13.38 0 0 0-7 0C4.93.14 3.81.5 3.81.5A5.5 5.5 0 0 0 3.72 4a5.4 5.4 0 0 0-1.44 3.78c0 5.42 3.44 6.67 6.72 7A4.8 4.8 0 0 0 8 18v4"></path><path d="M8 19c-3 .923-3-2.31-4-2.77"></path></svg>
         </a>
       {% endif %}

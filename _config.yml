@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "bulbzhong"
-description              : "一名喜欢音乐、爬山、骑单车的计算机专业在读学生。"
+description              : "一名喜欢音乐、爬山、骑单车的计算机专业在读学生。 / A computer science student who enjoys music, hiking, and cycling."
+description_zh           : "一名喜欢音乐、爬山、骑单车的计算机专业在读学生。"
+description_en           : "A computer science student who enjoys music, hiking, and cycling."
 repository               : "2023803/2023803.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,8 +25,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "bulbzhong"
   avatar           : "images/avatar.jpg"
-  bio              : "Computer Science Student"
-  location         : "Zhejiang, China"
+  bio              : "计算机专业在读学生"
+  bio_en           : "Computer Science Student"
+  location         : "中国浙江"
+  location_en      : "Zhejiang, China"
   employer         :
   pubmed           : 
   googlescholar    :
