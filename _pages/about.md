@@ -22,6 +22,20 @@ A computer science student who enjoys music, hiking, and cycling.
 
 <ul class="news-learning-list">
   <li class="news-learning-group">
+    <strong>复现项目</strong>
+    <ul class="news-task-list">
+      <li class="news-task">复现论文《<strong>CG-FedLLM: How to Compress Gradients in Federated Fine-Tuning for Large Language Models</strong>》 <span class="news-completion" role="img" aria-label="已完成" title="已完成">✓</span></li>
+    </ul>
+  </li>
+  <li class="news-learning-group">
+    <strong>参加比赛</strong>
+    <ul class="news-task-list">
+      <li class="news-task">2026年华为杯数学建模大赛 <span class="news-completion" role="img" aria-label="已完成" title="已完成">✓</span></li>
+      <li class="news-task">第三届全国智能算法对抗挑战赛</li>
+      <li class="news-task">百度智能云 × 北航｜“百度伐谋杯”AI+航天大赛</li>
+    </ul>
+  </li>
+  <li class="news-learning-group">
     <strong>LeetCode 题目练习</strong>
     <ul class="news-task-list">
       <li class="news-task is-complete">滑动窗口</li>

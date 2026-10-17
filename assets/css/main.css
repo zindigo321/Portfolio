@@ -156,6 +156,12 @@
   font-weight: 700;
 }
 
+.news-completion {
+  display: inline-block;
+  color: #2e8b57;
+  font-weight: 700;
+}
+
 .news-task.has-subtasks {
   padding-left: 0;
 }
