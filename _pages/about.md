@@ -18,12 +18,14 @@ redirect_from:
 
 # 🔥 近期动态 / News
 
-<ul class="news-learning-list">
+<ul class="news-learning-list" role="list">
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">复现项目</span> / <span lang="en">Paper Reproductions</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">复现论文《<strong>CG-FedLLM：如何在大语言模型联邦微调中压缩梯度</strong>》</span>
           <span lang="en" class="bilingual-en">Reproduction of <strong>CG-FedLLM: How to Compress Gradients in Federated Fine-Tuning for Large Language Models</strong></span>
         </li>
@@ -33,16 +35,20 @@ redirect_from:
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">参加比赛</span> / <span lang="en">Competitions</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">2026年华为杯数学建模大赛</span>
           <span lang="en" class="bilingual-en">2026 Huawei Cup Mathematical Modeling Competition</span>
         </li>
         <li class="news-task">
+          <span class="news-task-marker" aria-hidden="true">•</span>
           <span lang="zh-CN">第三届全国智能算法对抗挑战赛</span>
           <span lang="en" class="bilingual-en">3rd National Intelligent Algorithm Adversarial Challenge</span>
         </li>
         <li class="news-task">
+          <span class="news-task-marker" aria-hidden="true">•</span>
           <span lang="zh-CN">百度智能云 × 北航｜“百度伐谋杯”AI+航天大赛</span>
           <span lang="en" class="bilingual-en">Baidu AI Cloud × Beihang University | Baidu Famou Cup AI + Aerospace Competition</span>
         </li>
@@ -52,24 +58,33 @@ redirect_from:
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">LeetCode 题目练习</span> / <span lang="en">LeetCode Practice</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">滑动窗口</span>
           <span lang="en" class="bilingual-en">Sliding window</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">二分</span>
           <span lang="en" class="bilingual-en">Binary search</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">链表</span>
           <span lang="en" class="bilingual-en">Linked lists</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">二叉树递归</span>
           <span lang="en" class="bilingual-en">Binary tree recursion</span>
         </li>
         <li class="news-task">
+          <span class="news-task-marker" aria-hidden="true">•</span>
           <span lang="zh-CN">回溯</span>
           <span lang="en" class="bilingual-en">Backtracking</span>
         </li>
@@ -79,43 +94,61 @@ redirect_from:
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">Hugging Face Transformers 实战</span> / <span lang="en">Hugging Face Transformers Practice</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">实战-基于T5的文本摘要模型</span>
           <span lang="en" class="bilingual-en">Text summarization with T5</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">实战-基于GLM的文本摘要模型</span>
           <span lang="en" class="bilingual-en">Text summarization with GLM</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">实战-生成式对话机器人(Bloom)</span>
           <span lang="en" class="bilingual-en">Generative chatbot with BLOOM</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">实战-检索机器人(naive RAG + top-K)</span>
           <span lang="en" class="bilingual-en">Retrieval chatbot with naive RAG and top-K retrieval</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">实战-基于掩码语言的模型训练</span>
           <span lang="en" class="bilingual-en">Masked language model training</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">实战-基于因果语言的模型训练</span>
           <span lang="en" class="bilingual-en">Causal language model training</span>
         </li>
         <li class="news-task is-complete has-subtasks" title="已完成 / Completed">
           <details class="news-subgroup">
             <summary class="news-task-text">
+              <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+              <span class="sr-only">已完成 / Completed</span>
               <span lang="zh-CN">实战-基于截断策略的机器阅读理解任务实现</span>
               <span lang="en" class="bilingual-en">Machine reading comprehension with a truncation strategy</span>
             </summary>
-            <ul class="news-subtask-list">
+            <ul class="news-subtask-list" role="list">
               <li class="news-subtask is-complete" title="已完成 / Completed">
+                <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+                <span class="sr-only">已完成 / Completed</span>
                 <span lang="zh-CN">实战-基于 MacBERT 的机器阅读理解评估和预测</span>
                 <span lang="en" class="bilingual-en">Machine reading comprehension evaluation and prediction with MacBERT</span>
               </li>
               <li class="news-subtask is-complete" title="已完成 / Completed">
+                <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+                <span class="sr-only">已完成 / Completed</span>
                 <span lang="zh-CN">实战-基于 MacBERT 交叉编码器与双塔模型的子相似度计算</span>
                 <span lang="en" class="bilingual-en">Similarity computation with MacBERT cross-encoders and dual-encoder models</span>
               </li>
@@ -123,6 +156,8 @@ redirect_from:
           </details>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">实战-基于MacBERT的中文命名实体识别（NER）</span>
           <span lang="en" class="bilingual-en">Chinese named entity recognition (NER) with MacBERT</span>
         </li>
@@ -132,32 +167,46 @@ redirect_from:
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">大模型高效微调实战</span> / <span lang="en">Efficient LLM Fine-Tuning Practice</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">参数高效微调与BitFit实战</span>
           <span lang="en" class="bilingual-en">Parameter-efficient fine-tuning and BitFit practice</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">Prompt-Tuning原理与实战</span>
           <span lang="en" class="bilingual-en">Prompt Tuning: principles and practice</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">P-Tuning 原理与实战</span>
           <span lang="en" class="bilingual-en">P-Tuning: principles and practice</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">Prefix-Tuning 原理与实战</span>
           <span lang="en" class="bilingual-en">Prefix Tuning: principles and practice</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">Lora 原理与实战</span>
           <span lang="en" class="bilingual-en">LoRA: principles and practice</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">IA3 原理与实战</span>
           <span lang="en" class="bilingual-en">IA3: principles and practice</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">PEFT 进阶操作</span>
           <span lang="en" class="bilingual-en">Advanced PEFT techniques</span>
         </li>
@@ -167,28 +216,40 @@ redirect_from:
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">低精度训练与量化</span> / <span lang="en">Low-Precision Training and Quantization</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">低精度训练与大模型下载</span>
           <span lang="en" class="bilingual-en">Low-precision training and downloading LLMs</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">半精度训练与 LLaMA2 训练实战</span>
           <span lang="en" class="bilingual-en">Half-precision training with LLaMA2</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">LLaMA2 训练细节补充</span>
           <span lang="en" class="bilingual-en">Additional LLaMA2 training details</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">半精度训练与 ChatGLM3 训练实战</span>
           <span lang="en" class="bilingual-en">Half-precision training with ChatGLM3</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">量化与 8bit 模型训练</span>
           <span lang="en" class="bilingual-en">Quantization and 8-bit model training</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">4bit 量化与 QLoRA 模型训练</span>
           <span lang="en" class="bilingual-en">4-bit quantization and QLoRA model training</span>
         </li>
@@ -198,24 +259,34 @@ redirect_from:
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">分布式训练</span> / <span lang="en">Distributed Training</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">分布式训练与环境配置</span>
           <span lang="en" class="bilingual-en">Distributed training and environment setup</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">DataParallel原理与应用</span>
           <span lang="en" class="bilingual-en">DataParallel: principles and applications</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">Distributed DataParallel（分布式数据并行）</span>
           <span lang="en" class="bilingual-en">Distributed DataParallel</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">Accelerate分布式训练</span>
           <span lang="en" class="bilingual-en">Distributed training with Accelerate</span>
         </li>
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">Accelerate + Deepspeed 联合训练</span>
           <span lang="en" class="bilingual-en">Training with Accelerate and DeepSpeed</span>
         </li>
@@ -225,8 +296,10 @@ redirect_from:
   <li class="news-learning-group">
     <details class="news-group">
       <summary><span lang="zh-CN">参数搜索</span> / <span lang="en">Hyperparameter Search</span></summary>
-      <ul class="news-task-list">
+      <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
+          <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
+          <span class="sr-only">已完成 / Completed</span>
           <span lang="zh-CN">基于Optuna的自动调参</span>
           <span lang="en" class="bilingual-en">Automated hyperparameter tuning with Optuna</span>
         </li>
