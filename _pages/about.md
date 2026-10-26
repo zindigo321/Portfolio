@@ -326,6 +326,21 @@ redirect_from:
     <span class="project-name"><span lang="zh-CN">基于 Graph Transformer 的安卓恶意软件检测方法研究</span><span lang="en" class="bilingual-en">Research on Android Malware Detection Using Graph Transformers</span></span>
     <span class="project-date"><span lang="zh-CN">2026年1月 – 2026年5月</span><span lang="en" class="bilingual-en">Jan 2026 – May 2026</span></span>
   </li>
+    <li class="project-row">
+    <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 17v5"></path><path d="m5 17 2-7V5h10v5l2 7Z"></path><path d="M5 17h14"></path><path d="M9 5V2h6v3"></path></svg>
+    <span class="project-name"><span lang="zh-CN">大语言模型数据质量、标度律与算力配置建模</span><span lang="en" class="bilingual-en">Modeling Data Quality, Scaling Laws, and Compute Allocation for Large Language Models</span></span>
+    <span class="project-date"><span lang="zh-CN">2026年9月</span><span lang="en" class="bilingual-en">Sep 2026</span></span>
+  </li>
+  <li class="project-row">
+    <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 17v5"></path><path d="m5 17 2-7V5h10v5l2 7Z"></path><path d="M5 17h14"></path><path d="M9 5V2h6v3"></path></svg>
+    <span class="project-name"><span lang="zh-CN">多无人机协同任务规划与智能体实现</span><span lang="en" class="bilingual-en">Multi-UAV Collaborative Task Planning and Agent Implementation</span></span>
+    <span class="project-date"><span lang="zh-CN">2026年9月 – 2026年10月</span><span lang="en" class="bilingual-en">Sep 2026 – Oct 2026</span></span>
+  </li>
+  <li class="project-row">
+    <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 17v5"></path><path d="m5 17 2-7V5h10v5l2 7Z"></path><path d="M5 17h14"></path><path d="M9 5V2h6v3"></path></svg>
+    <span class="project-name"><span lang="zh-CN">庙算兵棋仿真智能体设计与实现</span><span lang="en" class="bilingual-en">Agent Design and Implementation for Miaosuan Wargame Simulation</span></span>
+    <span class="project-date"><span lang="zh-CN">2026年9月 – 2026年10月</span><span lang="en" class="bilingual-en">Sep 2026 – Oct 2026</span></span>
+  </li>
 </ul>
 
 <span class='anchor' id='honors'></span>
