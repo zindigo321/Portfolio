@@ -10,8 +10,9 @@ title                    : "bulbzhong"
 description              : "一名喜欢音乐、爬山、骑单车的计算机专业在读学生。 / A computer science student who enjoys music, hiking, and cycling."
 description_zh           : "一名喜欢音乐、爬山、骑单车的计算机专业在读学生。"
 description_en           : "A computer science student who enjoys music, hiking, and cycling."
-repository               : "2023803/2023803.github.io"
-google_scholar_stats_use_cdn : false
+repository: "zindigo321/Portfolio"
+url: "https://zindigo321.github.io"
+baseurl: "/Portfolio"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
