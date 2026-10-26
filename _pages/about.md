@@ -34,7 +34,7 @@ redirect_from:
   </li>
   <li class="news-learning-group">
     <details class="news-group">
-      <summary><span lang="zh-CN">参加比赛</span> / <span lang="en">Competitions</span></summary>
+      <summary><span lang="zh-CN">参加的比赛</span> / <span lang="en">Competitions</span></summary>
       <ul class="news-task-list" role="list">
         <li class="news-task is-complete" title="已完成 / Completed">
           <span class="news-task-marker is-complete" aria-hidden="true">✓</span>
