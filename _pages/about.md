@@ -12,7 +12,7 @@ redirect_from:
 
 # 关于我 / About Me
 
-<p><span lang="zh-CN">一名喜欢音乐、爬山、骑单车的计算机专业在读学生。</span><span lang="en" class="bilingual-en">A computer science student who enjoys music, hiking, and cycling.</span></p>
+<p><span lang="zh-CN">一名喜欢健身、音乐、爬山、骑单车的计算机专业在读学生。</span><span lang="en" class="bilingual-en">A computer science student who enjoys music, hiking, and cycling.</span></p>
 
 <span class='anchor' id='news'></span>
 
@@ -314,7 +314,7 @@ redirect_from:
 
 - <span lang="zh-CN"><strong>大模型</strong>：关注大模型的理解、推理与应用。</span><span lang="en" class="bilingual-en"><strong>Large Language Models</strong>: Understanding, reasoning, and applications of large language models.</span>
 - <span lang="zh-CN"><strong>多模态</strong>：关注文本、视觉等多源信息的联合建模。</span><span lang="en" class="bilingual-en"><strong>Multimodal Learning</strong>: Joint modeling of text, vision, and other information sources.</span>
-- <span lang="zh-CN"><strong>算法</strong>：持续训练算法思维与工程实现能力。</span><span lang="en" class="bilingual-en"><strong>Algorithms</strong>: Continuing to develop algorithmic thinking and implementation skills.</span>
+- <span lang="zh-CN"><strong>Agent、多智能体算法</strong>：持续训练算法思维与工程实现能力。</span><span lang="en" class="bilingual-en"><strong>Algorithms</strong>: Continuing to develop algorithmic thinking and implementation skills.</span>
 
 <span class='anchor' id='projects'></span>
 
